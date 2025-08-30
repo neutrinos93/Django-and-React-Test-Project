@@ -1,9 +1,0 @@
-# Specify endopoints to expose from the backend component
-version: 0.1
-
-endpoints:
-  - name: "REST API"
-    port: 8000
-    type: REST
-    networkVisibility: Public # anyone can view this
-    context: / # base path of the API that we want to expose
